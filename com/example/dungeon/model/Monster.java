@@ -1,11 +1,12 @@
 package com.example.dungeon.model;
 
+
 import java.util.Random;
 
 public class Monster extends Entity {
     private int level;
-    private static Random random = new Random();
-    private static String[] taunts = {
+    private static final Random random = new Random();
+    private static final String[] taunts = {
             "Твоя мама была хомяком!",
             "Ты дерешься как новичок!",
             "Я ел таких на завтрак!",

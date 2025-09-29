@@ -6,7 +6,7 @@ import java.util.List;
 public class Player extends Entity {
     private int attack;
     private int level;
-    private List<Item> inventory;
+    private final List<Item> inventory;
     private int gold;
 
     public Player(String name, int hp, int attack) {

@@ -1,5 +1,6 @@
 package com.example.dungeon.model;
 
+
 public abstract class Entity {
     protected String name;
     protected int hp;

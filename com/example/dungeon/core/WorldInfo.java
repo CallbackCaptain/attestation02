@@ -53,13 +53,9 @@ public class WorldInfo {
 
     public static void printLogo() {
         System.out.println();
-        System.out.println("    ╔═══════════════════════════════════╗");
-        System.out.println("    ║        МАНЧКИН: ПОДЗЕМЕЛЬЕ        ║");
-        System.out.println("    ║         Текстовая RPG v1.0        ║");
-        System.out.println("    ╠═══════════════════════════════════╣");
-        System.out.println("    ║   Убивай монстров, хватай лут,   ║");
-        System.out.println("    ║     становись сильнее!            ║");
-        System.out.println("    ╚═══════════════════════════════════╝");
+        System.out.println("          АТТЕСТАЦИЯ: ПОДЗЕМЕЛЬЕ        ");
+        System.out.println("       Убивай монстров, хватай лут,   ");
+        System.out.println("            становись сильнее!            ");
         System.out.println();
     }
 

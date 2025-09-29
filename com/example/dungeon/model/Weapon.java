@@ -1,8 +1,8 @@
 package com.example.dungeon.model;
 
 public class Weapon extends Item {
-    private int attackBonus;
-    private boolean isBroken;
+    private final int attackBonus;
+    private final boolean isBroken;
 
     public Weapon(String name, int attackBonus) {
         super(name, "Выглядит опасно (возможно для вас)");
