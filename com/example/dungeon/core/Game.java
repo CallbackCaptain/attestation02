@@ -67,7 +67,7 @@ public class Game {
                 return;
             }
 
-            String direction = args.getFirst().toLowerCase();
+            String direction = args.get(0).toLowerCase();
             Room current = ctx.getCurrent();
             Room next = current.getExits().get(direction);
 
